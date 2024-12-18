@@ -1,0 +1,26 @@
+{
+  "name": "qa-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:report": "npx playwright show-report",
+    "test:step1": "npx playwright test --grep @Step-1",
+    "test:step2": "npx playwright test --grep @Step-2",
+    "test:step3": "npx playwright test --grep @Step-3",
+    "test:step4": "npx playwright test --grep @Step-4",
+    "test:step5": "npx playwright test --grep @Step-5",
+    "test:step6": "npx playwright test --grep @Step-6"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
